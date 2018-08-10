@@ -2,7 +2,7 @@ package Chapter05;
 
 public class SearchLastString {
 	public static void main(String[] args) {
-		String strOrig = "Helo world, Helo Reader";
+		String strOrig = "Hello world, Hello Reader";
 		int lastIndex = strOrig.lastIndexOf("Hello");
 		
 		if(lastIndex == -1){
