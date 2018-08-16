@@ -23,7 +23,7 @@ public class Compute {
 		default:
 			break;
 		}		
-		
+		//if문으로 실행안됨
 //		if(operator == "+"){
 //			rs = a+b;
 //		}else if(operator == "-"){
