@@ -5,6 +5,7 @@ class Tv{
 	boolean power;
 	int channel;
 	String maker;
+	static int tex = 0; 
 	
 	Tv(String p_maker) {
 		power = false;
@@ -14,7 +15,8 @@ class Tv{
 	}	
 	void chkMaker(){
 		System.out.println("Maker : "+maker);
-	}
+			}	
+		
 	//Tv¿« ±‚¥…
 	void power(){
 		power = !power;
